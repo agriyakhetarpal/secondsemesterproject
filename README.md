@@ -1,10 +1,6 @@
 # Multiple-Choice-Quiz
 
-![alt text](https://imgur.com/iocxbNd.gif)
-
-This applet may be freely copied and used by others.
-
-I) In order to run the applet properly, you need to download the java classes above and follow the steps :
+I) In order to run the applet properly, you need to download the java classes above and follow the steps:
 
 1) open your terminal (or cmd).
 2) go to the path of your classes' file. (cd \path "on windows").
@@ -12,7 +8,7 @@ I) In order to run the applet properly, you need to download the java classes ab
 4) run you java program (main class wich is Quiz.java).
 5) done
 
-II) Now in order to add or change the question of the quiz follow :
+II) Now, in order to add or change the question of the quiz, follow:
 
 go to the main class (Quiz.java) there is an array of objects called "qObj" represented :
 
@@ -33,14 +29,12 @@ go to the main class (Quiz.java) there is an array of objects called "qObj" repr
 - the 6th attribute is the correct answer (so put the correct answer of the question there).
 - hint 1 , hint 2 ... are the hints of the correct answers.
 
-If you wanna add other question all you have to do is : creating a new object from the class quiz2 and add it to the array "qObj" :
+If you want to add other questions, all you have to do is: create a new object from the class quiz2 and add it to the array "qObj" :
        
-            new quiz2("Your question","option 1","option 2","option 3","option 4","correct answer","Hint"); 
+            new quiz2("Your question","Option 1","Option 2","Option 3","Option 4","Correct answer","Hint"); 
 
 III) The timing : if you want to give the player more time to answer the quiestions there is a int variable called time in the main class :
             
             int time = 60 // time by seconds
             
-you can change it to wahtever you want.
-
-Please send any comments or suggestions to : https://www.instagram.com/wadiemendja
+you can change it to whatever you want.
