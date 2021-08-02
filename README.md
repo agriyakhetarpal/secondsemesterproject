@@ -2,13 +2,13 @@
 
 I) In order to run the applet properly, you need to download the java classes above and follow the steps:
 
-1) open your terminal (or cmd).
-2) go to the path of your classes' file. (cd \path "on windows").
-3) compile your java files (use the command " javac *.java ").
-4) run you java program (main class wich is Quiz.java).
-5) done
+1) Open your terminal (or cmd).
+2) Go to the path of your classes' file. (cd \path "on windows").
+3) Compile your java files (use the command " javac *.java ").
+4) Run your java program (main class wich is Quiz.java).
+5) Done
 
-II) Now, in order to add or change the question of the quiz, follow:
+II) Now, in order to add to or to change the questions of the quiz, follow:
 
 go to the main class (Quiz.java) there is an array of objects called "qObj" represented :
 
@@ -24,9 +24,9 @@ go to the main class (Quiz.java) there is an array of objects called "qObj" repr
             
             };
 
-- Put your questions on "Question 1,2.." attribute.
+- Put your questions on the "Question 1,2.." attribute(s).
 - p1 , p2 , p3 , p4 are the choices.
-- the 6th attribute is the correct answer (so put the correct answer of the question there).
+- the 6th attribute is the correct answer (so, put the correct answer of the question there).
 - hint 1 , hint 2 ... are the hints of the correct answers.
 
 If you want to add other questions, all you have to do is: create a new object from the class quiz2 and add it to the array "qObj" :
